@@ -7,10 +7,12 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="promo">
+
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <div class="header__logo">
@@ -59,8 +61,9 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="advantages">
+    </section>
+
+    <section class="advantages">
         <div class="container">
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__wrapper">
@@ -98,6 +101,46 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                Получите бесплатную консультацию<br>
+                по подбору пульсометра 
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки<br> 
+                и мы перезвоним вам в течении 10 минут
+            </div>
+            <form class="feed-form" action="#">
+                    <input name="name" required placeholder="Ваше имя" value="Иван" type="text">
+                    <input name="phone" required placeholder="Ваш телефон" value="81231231234" type="number">
+                    <input name="email" required placeholder="Ваш E-mail" value="ivan@ivan.xyz" type="email">
+                    <button class="button button_submit">заказать консультацию</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/slide1.jpg" alt="electronic_watch">
+                </div>
+                <div>
+                    <img src="img/slide2.jpg" alt="three_different_electronic_watches">
+                </div>
+                <div>
+                    <img src="img/slide3.jpg" alt="three_different_electronic_watches_and_strap">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
