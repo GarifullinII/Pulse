@@ -13,6 +13,7 @@
         width: 220px;
         height: 50px;
         border: 2px solid #d0d0d0;
+        color: #6b6b6b;
         font-size: 18px;
         font-weight: 400;
         text-transform: uppercase;
@@ -30,7 +31,7 @@
             transform: skewX(25deg);
         }
         &_active {
-            color: #ffffff;
+            color: #fff;
             background-color: $main-color;
             border: none;
         }
@@ -47,7 +48,7 @@
     &-item {
         width: 300px;
         min-height: 440px;
-        border: 2px solid #E8E8E8;
+        border: 2px solid #e8e8e8;
         padding: 20px 20px 26px 20px;
         overflow: hidden;
         margin-bottom: 20px;
@@ -59,17 +60,17 @@
         }
         &__subtitle {
             margin-top: 20px;
-            color: #0D0D0D;
+            color: #0d0d0d;
             font-size: 16px;
-            font-weight: 700;  
-            text-align: center;   
+            font-weight: 700;
+            text-align: center;
         }
         &__descr {
             margin-top: 16px;
-            color: #0D0D0D;
+            color: #0d0d0d;
             font-size: 14px;
             font-weight: 300;
-            text-align: center;  
+            text-align: center;
         }
         &__link {
             display: block;
@@ -102,7 +103,7 @@
             text-decoration: line-through;
         }
         &__price {
-            color: #555555;
+            color: #050505;
             font-size: 20px;
             font-weight: 700;
         }
@@ -126,6 +127,7 @@
             margin-left: 20px;
             transform: translateX(0%);
             padding-right: 20px;
+            transition: 0.5s all;
             padding-left: 19px;
             margin-bottom: 0;
             list-style-type: none;
@@ -136,8 +138,8 @@
             li {
                 position: relative;
                 color: #555555;
-                font-weight: 300;
                 font-size: 14px;
+                font-weight: 300;
                 margin-bottom: 20px;
                 &:before {
                     content: '';
@@ -145,7 +147,7 @@
                     width: 5px;
                     height: 5px;
                     background-color: $main-color;
-                    left: - 14px;
+                    left: -14px;
                     top: 7px;
                 }
             }
@@ -163,7 +165,7 @@
             text-transform: uppercase;
             &:hover {
                 color: $main-color;
-            } 
+            }
         }
     }
 }
